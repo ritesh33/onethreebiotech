@@ -1,4 +1,4 @@
-pip install psycopg2
-pip install bs4
-pip install psycopg2
-python inject.py localhost postgres postgres ritesh33
+pip3 install psycopg2
+pip3 install bs4
+pip3 install lxml
+pip3 install requests
