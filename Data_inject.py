@@ -87,7 +87,7 @@ def create_table(cur):
     print("identifier_genename_action table created")
     cur.execute("DROP TABLE IF EXISTS identifier_external_links")
     cur.execute("create table identifier_external_links(identifier varchar(10) not null, name varchar(50) not null, link text);")
-    print("identifier_external_links table created")
+    print("identifier_external_links table created \n")
 
 def inject_data(cur, data):
     # inject the data into postgres database

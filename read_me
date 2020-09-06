@@ -1,3 +1,4 @@
+This code will peform web scrapping, create the schemas, tables in postgres and inject the data into the postgres database.
 •	Please run the below command to install the essential packages.
 
 pip3 install psycopg2
