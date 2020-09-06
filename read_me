@@ -1,4 +1,20 @@
+•	Please run the below command to install the essential packages.
+
 pip3 install psycopg2
 pip3 install bs4
 pip3 install lxml
 pip3 install requests
+
+•	Once after the successful installation, please download the python file Data_inject.py, then run below command:
+
+python Data_inject.py
+
+• Next enter the postgres database connection details and credentials:
+
+
+Enter a PostgreSQL server name: <server_name>
+Enter a PostgreSQL database name: <database_name>   (default:postgres)
+Enter a PostgreSQL user name: <user name>
+Enter a PostgreSQL port number: <port number>  (default: 5432)
+Enter a PostgreSQL password: <password> 
+
