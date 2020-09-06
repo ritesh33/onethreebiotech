@@ -1,12 +1,12 @@
 This code will peform web scrapping, create the schemas, tables in postgres and inject the data into the postgres database.
-•	Please run the below command to install the essential packages.
+• Open the Command prompt/terminal and please run the below command to install the essential packages.
 
 pip3 install psycopg2
 pip3 install bs4
 pip3 install lxml
 pip3 install requests
 
-•	Once after the successful installation, please download the python file Data_inject.py, then run below command:
+•	Once after the successful installation, please download the python file Data_inject.py, then run below command in command prompt/terminal:
 
 python Data_inject.py
 
